@@ -1,0 +1,55 @@
+body {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #4a4a4a;
+    /*background-color: #ecdada;*/
+    background-image: url('img/b1.png');
+    background-size: cover;
+}
+
+.hero-sakura {
+    min-height: 100vh; /* мин высота элемента чтобы инф-я занимала весь экран*/
+   /* background: linear-gradient(135deg, #eae0e0 0%, #fdf6f8 50%, #fff0f5 100%);*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.content h1 {
+    font-size: 56px;
+    font-weight: 700; /*толщина */
+    line-height: 1.2;
+    color: #4f3229;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #8d6e63;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.content p {
+    font-size: 18px;
+    color: #6d4c41;
+    line-height: 1.7;
+}
+
+.buttons button {
+    background:  #8d6e63;             
+    color: white;                     
+    border: none;                     
+    border-radius: 25px;            
+    padding: 12px 24px;               /* Внутренние отступы */
+    font-size: 16px;                  /* Размер текста */
+    font-weight: 500;                 /* Средняя жирность */
+}
+
+/* При наведении */
+.buttons button:hover {
+    background: #b57e90;       /* Темнее */
+    transform: translateY(-2px); /* Поднимается */
+}
